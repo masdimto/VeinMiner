@@ -5,6 +5,7 @@ using Terraria.ID;
 using TerrariaApi.Server;
 using TShockAPI;
 using Microsoft.Xna.Framework;
+using Point = Microsoft.Xna.Framework.Point;
 
 namespace VeinMinerPlugin
 {
@@ -12,7 +13,7 @@ namespace VeinMinerPlugin
     public class VeinMiner : TerrariaPlugin
     {
         public override string Name => "VeinMiner";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 0, 1);
         public override string Author => "CustomPlugin";
         public override string Description => "Menambang satu urat ore atau Desert Fossil sekaligus (maksimal 60 blok).";
 
